@@ -1,6 +1,6 @@
 <template>
   <div>
-    <TOrderButton />
+    <template v-if="!uid"><TOrderButton /></template>
     <THeader>
       <TButton
         v-if="profile.type === 'City'"

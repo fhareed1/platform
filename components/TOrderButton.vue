@@ -1,7 +1,7 @@
 <template>
   <div>
     <p :class="textClass">200 Free Cards Left</p>
-    <button v-if="!profile" type="button" :class="buttonClass">
+    <button type="button" :class="buttonClass">
       <a href="https://wedance.gumroad.com/l/vip-card">Get Free VIP Card</a>
     </button>
   </div>
@@ -44,7 +44,7 @@ export default {
   }
   .button {
     padding: 10px 100px;
-    margin: 20px 20px 20px 60px;
+    margin: 20px 20px 15px 60px;
     font-size: 10px;
     /* display: flex;
     flex-direction: row;
